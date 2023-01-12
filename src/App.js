@@ -2,10 +2,10 @@ import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 import { useAuthContext } from './hooks/useAuthContext'
 
 import Login from './pages/login/Login'
-import { Project } from './pages/project/Project'
+import Project from './pages/project/Project'
 import Create from './pages/create/Create'
 import Signup from './pages/signup/Signup'
-import { Dashboard } from './pages/dashboard/Dashboard'
+import Dashboard from './pages/dashboard/Dashboard'
 import Navbar from './components/Navbar'
 import OnlineUsers from './components/OnlineUsers'
 
